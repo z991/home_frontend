@@ -1,0 +1,62 @@
+.daily_container{
+  height: calc(100% - 80px);
+}
+.daily_content , .daily_header{
+  width: 90%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -o-border-radius: 5px;
+  border-radius: 5px;
+  font-size: .8rem;
+}
+.daily_header{
+  min-height: 60px;
+  max-height: auto;
+  line-height: 60px;
+  margin: 10px auto;
+  display: flex;
+  justify-content: space-around;
+  background: #e5eaeb;
+  flex-wrap:wrap;
+}
+.daily_content{
+  margin: 0 auto;
+  height: calc(100% - 240px);
+  overflow-y: hidden;
+  background: azure;
+}
+
+// 导航样式
+.daily_header .daily_search, .daily_header .daily_reset{
+  margin-top: 10px;
+  height: 40px;
+}
+.daily_reset{
+  margin:0 0 0 30px;
+}
+// 表单样式
+.daily_content .daily_table{
+  width: 100%;
+  height: calc(100% - 50px);
+  background: #e5eaeb;
+}
+.demonstration{
+  color:#999;
+  font-size: 14px;
+  padding: 0 5px 0 0;
+}
+.daily_content .daily_pages{
+  width: 100%;
+  height: 50px;
+  background: #fff;
+  ;
+  overflow: hidden;
+  .el-pagination{
+    margin-top: 9px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.user_pt{
+  width:230px;
+}

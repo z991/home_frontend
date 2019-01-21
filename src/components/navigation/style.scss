@@ -1,0 +1,21 @@
+body,div,p,span,h1,h2,h3,a,em,i,ul,li,img,input,select,table,tr,td,th{margin:0;padding:0;font-family: 'Microsoft YaHei';font-size:14px;}
+.navigation{background:#fff;width:1000px;margin:0 auto;padding:0 100px;
+  .clear:after{content: "";display:block;clear:both;}
+  .search{margin-top:50px;margin-bottom: 20px;}
+  .section{padding-bottom: 15px;}
+  .title{font-size: 20px;font-weight: bold;line-height: 50px;border-bottom:1px solid #ccc;margin-bottom:15px;}
+  .single{width:80px;border:1px solid #ccc;float:left;margin-right:25px;
+    .iconLink{width:80px;height:80px;}
+    .collect{position: relative;
+      .nameLink{font-size:12px;line-height: 30px;text-align:center;font-weight:bold;border-top:1px solid #ccc;cursor:pointer;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;}
+      .shade{position:absolute;top:0;width:100%;height:30px;background: rgba(0,0,0,0.7);text-align:center;line-height: 30px;
+        .addition{color:#fff;font-size: 12px;font-weight: bold;}}
+    }
+  }
+  .fade-enter-active, .fade-leave-active {
+    transition: opacity .6s;
+  }
+  .fade-enter, .fade-leave-to {
+    opacity: 0;
+  }
+}

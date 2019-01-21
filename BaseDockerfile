@@ -1,0 +1,12 @@
+FROM reg.xiaoneng.cn/oa/nginx-node:alpine
+
+MAINTAINER itsneo1990 <itsneo1990@gmail.com>
+
+ENV TZ "Asia/Shanghai"
+
+WORKDIR /src
+
+COPY package.json  .
+
+RUN npm install -g cnpm --registry=https://registry.npm.taobao.org && cnpm install
+

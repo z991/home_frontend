@@ -1,0 +1,29 @@
+.hello{background:url(../../assets/back.png) no-repeat ;width:1200px;height:675px;margin:auto;position:relative;
+  .leftp{width:400px;height:500px;position:relative;top:123px;left:163px;
+   .lo{height:30px;
+   img{float:left;padding-top:6px}
+   span{float:left;margin-left:30px;color:#3b4441;font-size:25px}}
+  }
+  .inpu{position:relative;margin-top:40px;height:260px;
+    p,input{margin:6px;}
+    p{color:#999999;text-align:left;height:28px;}
+    input{border:none;border-bottom:1px solid #bcc34a;outline:none;width:400px;height:30px;font-size:17px;color:#4c4c4c;position:relative;}
+  }
+  // .login{margin-top:20px;background:url(../../assets/butt.png) no-repeat center;color:white;height:60px;text-align:center;font-size: 18px;line-height:50px;cursor:pointer;}
+  .login{width:80%;margin-left: 10%;}
+  .forget{display: block;color:#666;text-align: right;margin-right: 10%;margin-top:16px;}
+  .ima{position:absolute;top:120px;left:760px;}
+  .wen{color:#999999;margin-top:20px;}
+  .tu{display:inline-block;width:100px;height:40px;position:absolute;right:-5px;bottom:30px;}
+  .btn{
+    margin: 15px 0;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+  }
+  .find{
+    h2{text-align:center;color:#7b7b7b;}
+    .form{margin-top:46px;}
+    .input{margin:20px 0;}
+  }
+}
